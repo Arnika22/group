@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;background-color: black;
+
+}
+
+
+.minicard{
+    text-align: center;
+}
+.header{
+    margin-top: 100px;
+}
+.maincard{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 350px;
+    width: 100vw;
+    gap: 30px;
+    /* margin-left: 250px */
+    /* border: 2px solid red; */
+    
+
+}
+h1{
+    color: white;
+}
+span{
+    color: rgba(248, 196, 83, 0.863);
+}
+
+.card{
+    border: 10px solid white;
+   background-color: wheat;
+   width: 300px;
+   height: 420px;
+   
+    
+}
+h2{
+    line-height: 30px;
+    color: black;
+    background-color: wheat;
+}
+p{
+    line-height: 22px;
+    color: black;
+    background-color: wheat;
+}
+.but{
+    margin-top: 15px;
+    height: 20px; 
+    width: 100px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+}
